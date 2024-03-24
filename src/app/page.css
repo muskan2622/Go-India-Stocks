@@ -1,0 +1,68 @@
+.sidebar {
+    width: 25%; /* Adjust width as needed */
+    margin-right: 20px; /* Adjust margin as needed */
+  }
+  
+  .sidebar .bg-blue-900 {
+    background-color: #1a365d; /* Dark blue background color */
+  }
+  
+  .sidebar .p-4 {
+    padding: 1.5rem; /* Adjust padding as needed */
+  }
+  
+  .sidebar button {
+    background-color: #1e40af; /* Button background color */
+    color: white;
+    padding: 0.5rem 1rem; /* Adjust padding as needed */
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+  
+  .sidebar button:hover {
+    background-color: #1c3d6e; /* Darker blue on hover */
+  }
+  
+  .sidebar h2 {
+    color: white;
+    font-size: 1.25rem; /* Adjust font size as needed */
+    font-weight: 600;
+    margin-bottom: 1rem; /* Adjust margin as needed */
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    color: white;
+    margin-bottom: 0.75rem; /* Adjust margin as needed */
+  }
+  
+  .sidebar ul li:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  /* Add this CSS to your existing styles */
+.container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .forums,
+  .stories {
+    flex: 1;
+    margin-right: 20px; /* Adjust margin as needed */
+  }
+  
+  .discussion-forums-tab {
+    flex: 1.5; /* Adjust the flex value as needed */
+    max-width: 70%; /* Adjust the maximum width as needed */
+  }
+  
+  .market-stories-tab {
+    flex: 1; /* Ensure Market Stories tab takes remaining space */
+    max-width: 30%; /* Adjust the maximum width as needed */
+  }
